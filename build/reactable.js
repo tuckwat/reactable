@@ -440,7 +440,8 @@ window.ReactDOM["default"] = window.ReactDOM;
             value: function render() {
                 var tdProps = {
                     className: this.props.className,
-                    onClick: this.handleClick.bind(this)
+                    onClick: this.handleClick.bind(this),
+                    style: this.props.style
                 };
 
                 // Attach any properties on the column to this Td object to allow things like custom event handlers
